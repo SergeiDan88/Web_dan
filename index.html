@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Виджет "Dialog"</title>
+    <link rel="stylesheet" href="lib/asd.css">
+    <link rel="stylesheet" href="css/index.css">
+    <script src="lib/jqvery.js"></script>
+    <script src="lib/jqveryui.js"></script>
+    <script src="js/index.js"></script>   
+</head>
+<body>
+    <div id="dialog" title="Введите данные" class="ui-widget" >
+        <div><label for="product">Название продукта : </label><input id="product" /></div>
+        <div><label for="color">Цвет: </label><input id="color" /></div>
+        <div><label for="count">Количество: </label><input id="count" /></div>
+        <div><label for="weight">Вес: </label><input id="weight" /></div>
+        <div><label for="price">Цена: </label><input id="price" /></div>
+    </div>
+    <div id="result_fon">
+        <div id="result_block">
+            <div id="close"></div>
+            <h1>Результат:</h1>
+            <div id="result_text">
+   
+            </div>
+        </div>
+    </div>
+    <table id="prods" class="ui-widget">
+        <tr><th>Название продукта</th><th>Цвет</th><th>Количество</th><th>Вес</th><th>Цена</th></tr>
+        <tr id="placeholder"><td colspan=5><b>Нет данных</b></td></tr>
+    </table>
+    <button id="show">Добавить данные в таблицу</button>
+    <button id="show2">Вывести данные из таблицы</button>
+</body>
+</html>

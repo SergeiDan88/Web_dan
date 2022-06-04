@@ -1,0 +1,85 @@
+*{
+        margin: 0;
+        padding: 0;
+}
+#dialog input {
+        width: 300px; 
+        margin: 7px; 
+        text-align: center;
+}
+#dialog label {
+        display:inline-block; 
+        width: 120px;
+}
+table {
+        border-collapse: collapse; 
+        border: thin solid rgb(172, 216, 216);
+        border-width: 2px; 
+        margin: 12px;
+}
+#placeholder {
+        text-align: center;
+}
+#show, #show2{ 
+        border: thin solid rgb(172, 216, 216);
+        border-width: 2px; 
+        margin: 10px;
+}
+
+td, th {
+        padding: 5px; 
+        width: 200px; 
+        border-width: 2px;
+}
+
+table, th, tr, td{
+        border: 1px solid black;
+}
+
+#result_fon{
+        display: none;
+        position: fixed;
+        background-color: rgba(0, 0, 0, 0.637);
+        width: 100%;
+        height: 100%;
+        z-index: 10;
+}
+
+#result_block{
+        position: relative;
+        width: 600px;
+        height: 600px;
+        background-color: rgb(172, 216, 216);
+        margin: 0 auto;
+        margin-top: calc(600px / 2 - 150px);
+        border-radius: 10px
+
+}
+
+#close{
+        position: absolute;
+        width: 20px;
+        height: 20px;
+        right: 20px;
+        top: 10px;
+        color: red;
+        font-size: 30px;
+        font-weight: bold;
+}
+
+#result_block h1{
+        padding-top: 50px;
+        width: 100%;
+        text-align: center;
+}
+#result_text{
+        width: 100%;
+        height: 500px;
+        font-size: 24px;
+        overflow-y: scroll;
+}
+#result_text p{
+        padding-top: 10px;
+        width: 100%;
+        text-align: center;
+}
